@@ -1,0 +1,65 @@
+
+html{
+    box-sizing: border-box; 
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+* {
+    background-color: red
+;
+}    
+
+
+nav.menu {
+border:1px solid #ccc;
+border-width:1px 0;
+list-style:none;
+margin:0;
+padding:0;
+display: inline;
+} 
+
+
+ul {
+    padding: 0px;
+    list-style-type: none;
+} 
+
+.box{
+    color: #ffff;
+    font-size: 20px;   
+    text-align: center;
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.box1 {
+    background: #ffff;
+    width: 755px;
+    height: 477px;
+}
+
+
+.box2 {background: purple;}
+.box3 {background: yellow;}
+.box4 {background: orange;}
+.box5 {background: green;}
+.box6 { background: teal}
+.box7 {background: tan;}
+.box8 {background: gray;}
+.box9 {background: lime}
+.box10 {background: black;}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    border: 10px solid pink;
+    min-height: 100vh;
+    flex-direction: column;
+   
+} 
+
+
