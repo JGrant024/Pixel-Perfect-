@@ -1,4 +1,6 @@
-
+*{
+    background-color: #F1F1F1;
+}
 
 html{
     box-sizing: border-box; 
@@ -46,7 +48,7 @@ a:hover {
 }
 
 .container {
-    padding: 50px 205px; 
+    padding: 50px 205px;     
 }
 
 img {
@@ -58,6 +60,8 @@ img {
     width: 677px; 
     height: 407px; 
     background-color: #ffff;
+    
+    
 }
 
 button{
@@ -67,16 +71,21 @@ button{
     font-family: 'Playfair Display', italic; 
 }
 
-div{
+div {
     text-align: center;
     width: 677px; 
     height: 426px; 
-   border-bottom:#605F60;
+    
+    
 } 
 
  p {
     text-align: left;
- }
- 
+ } 
 
-
+.authors{
+    border-bottom: #605F60 solid;
+    height: 95px;
+    width: 75px;
+    border-bottom: #605F60 1px solid; 
+}
