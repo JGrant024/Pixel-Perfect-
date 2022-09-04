@@ -1,8 +1,4 @@
 *{
-    background-color: #F1F1F1;
-}
-
-html{
     box-sizing: border-box; 
 }
 
@@ -12,6 +8,7 @@ html{
 
 body {
     background-color: #F2F2F2; 
+    margin: 0px 
 ;
 }    
 
@@ -19,6 +16,7 @@ body {
     background-color: #F6F6F6;
     border-bottom: #605F60 1px solid;
     padding: 10px 120px; 
+    height: 18px; 
 }
 
 ul {
@@ -41,6 +39,9 @@ a:hover {
 
 .social-icons {
     display: inline;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .nav-menu {
@@ -48,35 +49,61 @@ a:hover {
 }
 
 .container {
-    padding: 50px 205px;     
+    padding: 45px 0px 0px 135px;     
+    height: 100%;
+    width: 100%; 
 }
 
-img {
-    width: 677px; 
-    height: 426px; 
+article {
+    max-width: 675px; 
+    margin-bottom: 45px; 
+}
+
+.city-img{
+    width: 675px; 
+    height: 425px; 
+}
+
+.testing {
+    background-color: #FFFFFF;
+    max-height: 405px;
+}
+
+.article-info {
+    height: 325px;  
+    width: auto; 
+    padding: 39px 36px; 
+    text-align: center;
+}
+
+.authors-info {
+    height: 77px; 
+    border-top: 1px solid #605F60; 
+    width: auto; 
+    padding-top: 20px; 
+    text-align: start;
+    position: relative;
 }
 
 .text {
     width: 677px; 
-    height: 407px; 
+    height: 407px;  
     background-color: #ffff;
-    
-    
 }
 
 button{
     background-color: #ffff;
     color: #DC6A55;
-    border-color: #DC6A55; 
+    border: 1px solid #DC6A55; 
     font-family: 'Playfair Display', italic; 
+    width: 155px; 
+    height: 35px;
 }
 
 div {
     text-align: center;
     width: 677px; 
     height: 426px; 
-    
-    
 } 
 
  p {
@@ -87,5 +114,53 @@ div {
     border-bottom: #605F60 solid;
     height: 95px;
     width: 75px;
-    border-bottom: #605F60 1px solid; 
+    display: flexbox; 
+}
+
+.profile {
+    width: 329px; 
+    height: 493px; 
+    /* background-color: #FFFFFF; */
+    background-color: purple;
+}
+
+.profile-text {
+    height: 327px; 
+    width: 
+    background-color: #ffff;
+}
+
+.article-category {
+    color: #DC6A55; 
+}
+
+h6 {
+    margin: 0px; 
+    font-family: 'Lato', normal;
+    font-weight: 600;
+    letter-spacing: 0.5px; 
+}
+
+h4 {
+    margin-top: 10px; 
+    font-family: 'Oswald', normal;
+    font-size: 21px;
+    font-weight: 800; 
+    letter-spacing: 0.5px;
+    color: #343434; 
+    margin-bottom: 19px;
+}
+
+.lorem {
+    margin-top: 0px; 
+    font-family: 'Lato', normal;
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 22px;
+    margin-bottom: 35px;
+}
+
+.section1 {
+    height: 100%;
+    width: 677px; 
 }
