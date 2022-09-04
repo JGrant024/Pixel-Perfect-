@@ -63,15 +63,20 @@ img {
 button{
     background-color: #ffff;
     color: #DC6A55;
+    border-color: #DC6A55; 
+    font-family: 'Playfair Display', italic; 
 }
 
 div{
     text-align: center;
     width: 677px; 
     height: 426px; 
-   
-}
- 
+   border-bottom:#605F60;
+} 
+
+ p {
+    text-align: left;
+ }
  
 
 
