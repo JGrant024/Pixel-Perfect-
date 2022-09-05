@@ -14,9 +14,9 @@ body {
 
 .nav-bar {
     background-color: #F6F6F6;
-    border-bottom: #605F60 1px solid;
+    border-bottom: #E1E1E1 0.5px solid;
     padding: 10px 120px; 
-    height: 18px; 
+    height: 35px; 
 }
 
 ul {
@@ -41,7 +41,7 @@ a:hover {
     display: inline;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 36px;
 }
 
 .nav-menu {
@@ -52,11 +52,13 @@ a:hover {
     padding: 45px 0px 0px 135px;     
     height: 100%;
     width: 100%; 
+    display: flex;
 }
 
 article {
     max-width: 675px; 
     margin-bottom: 45px; 
+    border: 1px solid #EAEAEA; 
 }
 
 .city-img{
@@ -70,19 +72,23 @@ article {
 }
 
 .article-info {
-    height: 325px;  
+    height: 315px;  
     width: auto; 
-    padding: 39px 36px; 
+    padding-right: 36px;
+    padding-left: 36px; 
     text-align: center;
 }
 
 .authors-info {
     height: 77px; 
-    border-top: 1px solid #605F60; 
+    /* border-top: 1px solid #605F60;  */
     width: auto; 
-    padding-top: 20px; 
+    padding-top: 0px; 
     text-align: start;
     position: relative;
+    padding-right: 36px;
+    padding-left: 36px; 
+    margin-top: 12px; 
 }
 
 .text {
@@ -91,13 +97,21 @@ article {
     background-color: #ffff;
 }
 
+hr {
+    margin-right: 36px; 
+    margin-left: 36px; 
+    margin-top: 12px; 
+}
+
 button{
     background-color: #ffff;
     color: #DC6A55;
     border: 1px solid #DC6A55; 
     font-family: 'Playfair Display', italic; 
-    width: 155px; 
-    height: 35px;
+    width: 152px; 
+    height: 30px;
+    padding-right: 0px; 
+    padding-left: 0px;
 }
 
 div {
@@ -139,6 +153,7 @@ h6 {
     font-family: 'Lato', normal;
     font-weight: 600;
     letter-spacing: 0.5px; 
+    padding-top: 39px; 
 }
 
 h4 {
@@ -162,5 +177,14 @@ h4 {
 
 .section1 {
     height: 100%;
+    max-width: 677px; 
     width: 677px; 
+    display: inline;
+    margin-right: 25px; 
+}
+
+.section {
+    height: 100%; 
+    max-width: 426px; 
+    display: inline; 
 }
