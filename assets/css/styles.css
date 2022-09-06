@@ -1,10 +1,15 @@
+/* INITIAL DECLARATIONS  */
+
 *{
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 body {
     background-color: #F2F2F2; 
     margin: 0px;
+    height: 100%; 
+    line-height: 22px;
+    position: relative;
 }    
 
 img {
@@ -12,17 +17,38 @@ img {
     width: 100%; 
 }
 
-.nav-bar {
-    background-color: #F6F6F6;
-    border-bottom: #E1E1E1 0.5px solid;
-    padding: 10px 120px; 
-    height: 57px; 
-}
-
 ul {
     padding: 0px;
     list-style-type: none;
 } 
+
+footer {
+    text-align: center;
+}
+
+/* NAV BAR */
+.nav-bar {
+    background-color: #F6F6F6;
+    border-bottom: #E1E1E1 0.5px solid;
+    padding: 10px 135px; 
+    height: 57px; 
+    width: 100%; 
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px; 
+    width: 337px; 
+    font-family: 'Lato', normal;  
+}
+
+.nav-icons{
+    position: fixed;
+    top: 0; 
+    right: 135px; 
+}
+
 
 li {
     display: inline;
@@ -44,9 +70,7 @@ a:hover {
     right: 36px;
 }
 
-.nav-menu {
-    display: inline;
-}
+/* MAIN CONTAINER */
 
 .container {
     padding: 45px 0px 0px 135px;     
@@ -55,11 +79,19 @@ a:hover {
     display: flex;
 }
 
+
+
 article {
     max-width: 675px; 
     margin-bottom: 45px; 
     border: 1px solid #EAEAEA; 
 }
+
+.article-img {
+    width: 675px; 
+    height: 425px;
+}
+
 
 .city-img{
     width: 675px; 
@@ -114,11 +146,11 @@ button{
     padding-left: 0px;
 }
 
-div {
-    text-align: center;
-    width: 677px; 
-    height: 426px; 
-} 
+button:hover {
+    background-color: #DC6A55;
+    color: #ffff; 
+}
+
 
  p {
     text-align: left;
@@ -165,7 +197,6 @@ h4 {
     font-family: 'Lato', normal;
     font-weight: 400;
     font-size: 13.5px;
-    line-height: 22px;
     margin-bottom: 35px;
 }
 
@@ -185,24 +216,87 @@ h4 {
 
 .section2 {
     display: inline;
+    max-width: 325px;
 }
 
 .profile {
     height: 493px;
-    width: 325px;  
+    max-width: 325px;  
     background-color: #FFFFFF;
     position: relative;
+    text-align: center;
 }
 
 .profile-img {
-    max-width: 325px;
+    width: 325px;
     height: 166px;
 }
 
 .circle-img {
-    width: 182px; 
-    height: 182px; 
+    width: 170px; 
+    height: 170px; 
     border-radius: 50%;
     position: absolute; 
     z-index: 2;
+    top: 90px; 
+    right: 80px; 
+    border: 7px white solid; 
+}
+
+.username {
+    margin-top: 100px; ;
+    font-family: 'Oswald', normal;
+}
+
+.user-description {
+    padding: 0 30px; 
+}
+
+.profile > p {
+    text-align: center;
+}
+
+.profile-icons {
+    padding-top: 7px;
+}
+
+
+.user-icons > li >.fa {
+    border: 1px gray solid;
+    border-radius: 50%; 
+    padding: 5px;
+}
+
+.user-icons {
+    margin: 0px; 
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+.popular-posts {
+    width: 325px;
+    height: 889px;
+    background-color: #FFFFFF;
+    margin-top: 30px; 
+}
+
+.latest-posts {
+    width: 325px; 
+    height: 465px;
+    background-color: #FFFFFF; 
+    margin-top: 35px; 
+}
+
+.instagram-feed {
+    width: 325px; 
+    height: 518px; 
+    background-color: #FFFFFF;
+    margin-top: 35px;
+}
+
+.footer {
+    border: 1px black solid;
+    height: 50px;
 }
