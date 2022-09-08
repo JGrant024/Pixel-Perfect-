@@ -304,12 +304,13 @@ h4 {
     height: 50px;
 }
 
-.ICE-CREAM{
+.ICE-CREAM{ 
     height: 180px;
     width: 265px;
 }
 
-.LLAMA {
+
+.LLAMA{
     height: 180px;
     width: 265px;
 }
@@ -317,4 +318,8 @@ h4 {
 .PINEAPPLE{
     height: 180px;
     width: 265px;
+}
+
+.Bottom-photos{
+display: flex;
 }
