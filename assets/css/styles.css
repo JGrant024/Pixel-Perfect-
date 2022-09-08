@@ -290,6 +290,7 @@ h4 {
     height: 465px;
     background-color: #FFFFFF; 
     margin-top: 35px; 
+    padding: 30px 30px 0px 30px
 }
 
 .instagram-feed {
@@ -297,6 +298,7 @@ h4 {
     height: 518px; 
     background-color: #FFFFFF;
     margin-top: 35px;
+    padding: 30px 30px 0px 30px
 }
 
 .footer {
