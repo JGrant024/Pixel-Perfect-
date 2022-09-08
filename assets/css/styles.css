@@ -334,4 +334,11 @@ h4 {
     content: "";
     clear: both;
     display: table;
-  }
+  } 
+
+.latest-posts{
+  width: 325px; 
+  height: 518px; 
+  background-color: #FFFFFF;
+  margin-top: 35px;
+}
