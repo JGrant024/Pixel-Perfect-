@@ -279,7 +279,7 @@ h4 {
 
 .popular-posts {
     width: 325px;
-    height: 889px;
+    height: 889 px;
     background-color: #FFFFFF;
     margin-top: 30px; 
     text-align: center;
@@ -288,17 +288,10 @@ h4 {
 
 .latest-posts li {
     width: 95px; 
-    /* height: 70px;
-    background-color: #FFFFFF; 
-    margin-top: 35px; 
-    padding: 30px 30px 0px 30px; 
-    text-align: center; */
+
 }
 
-.latest-posts img {
-        /* width: 95px;
-        height: 70px; */
-}
+
 
 .instagram-feed {
     width: 325px; 
@@ -314,7 +307,7 @@ h4 {
 }
 
 .ICE-CREAM{ 
-    height: 180px;
+    height: 189px;
     width: 265px;
 }
 
