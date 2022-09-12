@@ -24,6 +24,8 @@ ul {
 
 footer {
     text-align: center;
+    display: flex;
+    display: inline;
 }
 
 /* NAV BAR */
@@ -292,6 +294,7 @@ h4 {
     flex-wrap: wrap;
     background-color: #FFFFFF;
     margin-right: 30px;
+    text-align: right;
 }
 
 
@@ -306,6 +309,7 @@ h4 {
     display: grid;
     text-align: center;
 
+
 }
 
 .footer {
@@ -314,12 +318,12 @@ h4 {
 }
 
 .ICE-CREAM{ 
-    height: 189px;
-    width: 265px; 
+    /* height: 189px;
+    width: 265px;  */
 }
 
 
-.LLAMA{
+/* .LLAMA{
     height: 180px;
     width: 265px;
 }
@@ -327,7 +331,7 @@ h4 {
 .PINEAPPLE{
     height: 180px;
     width: 265px;
-}
+} */
 
 
 
@@ -345,3 +349,7 @@ h4 {
     display: table;
   } 
 
+  .latest-posts-text{
+    text-align: right;
+    flex-wrap: wrap;
+  }
