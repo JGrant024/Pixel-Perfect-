@@ -15,6 +15,7 @@ body {
 img {
     height: 100%;  
     width: 100%; 
+    
 }
 
 ul {
@@ -100,7 +101,7 @@ article {
     height: 425px; 
 }
 
-.testing {
+.article {
     background-color: #FFFFFF;
     max-height: 405px;
 }
@@ -288,15 +289,39 @@ h4 {
     padding: 30px 30px 0px 30px;
 }
 
-.latest-posts li {
+/* .latest-posts li {
     width: 95px; 
     display: flex;
     flex-wrap: wrap;
     background-color: #FFFFFF;
     margin-right: 30px;
     text-align: right;
+} */
+
+
+.latest-posts {
+    width: 325px; 
+    height: 465px;
+    background-color: #FFFFFF; 
+    margin-top: 35px; 
+    text-align: center;
+    padding: 0px 30px; 
 }
 
+.latest-img {
+    width: 96px; 
+    height: 70px;
+}
+
+.latest-posts > section > div {
+    display: grid; 
+    grid-template-columns: auto auto;
+}
+
+.latest-posts > section > hr {
+    margin-right: 0px; 
+    margin-left: 0px; 
+}
 
 
 .instagram-feed {
@@ -305,23 +330,40 @@ h4 {
     background-color: #FFFFFF;
     margin-top: 35px;
     padding: 30px 30px 0px 30px;
-    overflow: hidden;
-    display: grid;
     text-align: center;
-
-
 }
+
+.ig-feed{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+.grid-item {
+    max-width: 130px;
+    max-height: 130px;
+}
+
 
 .footer {
     border: 1px black solid;
     height: 50px;
 }
 
-.ICE-CREAM{ 
-    /* height: 189px;
-    width: 265px;  */
+.posts {
+    width: 272px; 
+    height: 181px;
 }
 
+.time {
+    display: block; 
+    text-align: left;
+}
+
+.popular-posts > ul > hr {
+    margin-right: 0px; 
+    margin-left: 0px;
+}
 
 /* .LLAMA{
     height: 180px;
