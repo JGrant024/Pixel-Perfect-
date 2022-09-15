@@ -187,12 +187,12 @@ h6 {
 
 h4 {
     margin-top: 10px; 
-    font-family: 'Oswald', normal;
+    font-family: 'latto', solid;
     font-size: 21px;
     font-weight: 800; 
     letter-spacing: 0.5px;
-    color: #343434; 
-    margin-bottom: 19px;
+    color: #6D6D6D; 
+    margin-bottom: 22px;
 }
 
 .lorem {
@@ -279,27 +279,66 @@ h4 {
 }
 
 .popular-posts {
-    width: 325px;
-    height: 889 px;
     background-color: #FFFFFF;
     margin-top: 30px; 
     text-align: center;
-    padding: 30px 30px 0px 30px;
+    padding: 15px 24px 0px 24px;
 }
 
+.popular-posts > ul > h4 {
+    font-size: 15px;
+    letter-spacing: .035em;
+
+}
+
+.ice-cream{
+    font-size: 11px;
+    font-family: 'oswald';
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 0;
+    letter-spacing: .1em;
+}
+
+.LLAMA{
+    font-size: 11px;
+    font-family: 'oswald';
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 0;
+    letter-spacing: .1em;
+}
+
+.pineapple{
+    font-size: 11px;
+    font-family: 'oswald';
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 0;
+    letter-spacing: .1em;
+}
+
+
+.time{
+    font-family: 'oswald' bold;
+    font-style: italic ;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
 .latest-posts {
-    width: 325px; 
-    height: 518px; 
     background-color: #FFFFFF;
     margin-top: 35px;
     padding: 30px 30px 0px 30px;
     text-align: center;
 }
 
-.latest-img {
+/* .latest-img {
     width: 96px; 
     height: 70px;
-}
+} */
 
 .latest-posts > section > div {
     display: grid; 
@@ -348,11 +387,17 @@ h4 {
 .posts {
     width: 272px; 
     height: 181px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .time {
     display: block; 
     text-align: left;
+    font-size: 13px;
+    margin-right: 0px; 
+    margin-left: 0px;   
+    font-family: 'latto' solid #6D6D6D;
 }
 
 .popular-posts > ul > hr {
@@ -375,7 +420,7 @@ h4 {
     display: table;
   } 
 
-  .latest-posts-text{
+  /* .latest-posts-text{
     text-align: right;
     flex-wrap: wrap;
-  }
+  } */
