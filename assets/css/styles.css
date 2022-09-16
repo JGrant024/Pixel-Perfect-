@@ -13,7 +13,6 @@ body {
 }    
 
 img {
-    height: 100%;  
     width: 100%; 
     
 }
@@ -91,8 +90,9 @@ article {
 }
 
 .article-img {
-    width: 675px; 
+    /* width: 675px;  */
     height: 425px;
+    overflow: hidden;
 }
 
 
@@ -169,7 +169,6 @@ button:hover {
 
 .profile-text {
     height: 327px; 
-    width: ;
     background-color: #ffff;
 }
 
@@ -193,6 +192,7 @@ h4 {
     letter-spacing: 0.5px;
     color: #6D6D6D; 
     margin-bottom: 22px;
+    text-align: center;
 }
 
 .lorem {
@@ -330,19 +330,20 @@ h4 {
 
 .latest-posts {
     background-color: #FFFFFF;
-    margin-top: 35px;
-    padding: 30px 30px 0px 30px;
-    text-align: center;
+    padding: 15px 24px 0px 24px;
+    font-size: .8rem;
 }
 
-/* .latest-img {
+.latest-img {
     width: 96px; 
     height: 70px;
-} */
+
+    margin-right: 20px;
+
+}
 
 .latest-posts > section > div {
-    display: grid; 
-    grid-template-columns: auto auto;
+    display: flex; 
 }
 
 .latest-posts > section > hr {
@@ -350,6 +351,15 @@ h4 {
     margin-left: 0px; 
 }
 
+
+.latest-posts-text {
+    margin: 0 auto;
+  }
+
+
+.instagram-feed > h4{
+    letter-spacing: 0.5px;
+}
 
 .instagram-feed {
     width: 325px; 
@@ -372,12 +382,12 @@ h4 {
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto;
-    background-color: #ffff;
-    height: 164px;
+    display: flex;
 }
 
+.grid-container > div {
+   flex: 1 1 0;
+}
 
 .footer {
     border: 1px black solid;
@@ -404,14 +414,6 @@ h4 {
     margin-right: 0px; 
     margin-left: 0px;
 }
-
-
-.column {
-    float: left;
-    width: 168px;
-    height: 168px;
-    padding: 5px;
-  }
   
   /* Clear floats after image containers */
   .row::after {
@@ -420,7 +422,12 @@ h4 {
     display: table;
   } 
 
-  /* .latest-posts-text{
-    text-align: right;
-    flex-wrap: wrap;
-  } */
+  
+
+
+
+
+
+
+  
+  
