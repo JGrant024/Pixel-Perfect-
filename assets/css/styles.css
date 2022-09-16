@@ -377,12 +377,13 @@ h4 {
 }
 
 .grid-item {
-    max-width: 130px;
-    max-height: 130px;
+    width: 133px;
+    height: 132px;
 }
 
 .instagram-footer {
     display: flex;
+    height: 163px; 
 }
 
 .instagram-footer > div {
@@ -390,15 +391,8 @@ h4 {
 }
 
 .footer {
-    border: 1px black solid;
+    border: 1px #ffff solid;
     height: 50px;
-}
-
-.posts {
-    width: 272px; 
-    height: 181px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .time {
@@ -414,20 +408,3 @@ h4 {
     margin-right: 0px; 
     margin-left: 0px;
 }
-  
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  } 
-
-  
-
-
-
-
-
-
-  
-  
