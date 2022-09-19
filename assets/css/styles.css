@@ -63,13 +63,17 @@ a {
 
 a:hover {
     color: #AF5F48; 
+    cursor: pointer;
+
 }
 
 .social-icons {
     display: inline;
     position: absolute;
     top: 0;
-    right: 36px;
+    right: 26px; 
+    color: #787878;
+    font-size: .9rem;
 }
 
 /* MAIN CONTAINER */
@@ -122,6 +126,10 @@ article {
     padding-right: 36px;
     padding-left: 36px; 
     margin-top: 12px; 
+    font-family: 'Playfair';    
+    font-size: small;
+    color: #787878;
+
 }
 
 .text {
@@ -151,6 +159,7 @@ button{
 button:hover {
     background-color: #DC6A55;
     color: #ffff; 
+    cursor: pointer;
 }
 
 
@@ -200,6 +209,7 @@ h4 {
     font-weight: 400;
     font-size: 13.5px;
     margin-bottom: 35px;
+    color: #787878;
 }
 
 .section1 {
@@ -297,6 +307,7 @@ h4 {
     margin-top: 12px;
     margin-bottom: 0;
     letter-spacing: .1em;
+    color: #787878;
 }
 
 .LLAMA{
@@ -306,6 +317,7 @@ h4 {
     margin-top: 12px;
     margin-bottom: 0;
     letter-spacing: .1em;
+    color: #787878;
 }
 
 .pineapple{
@@ -315,6 +327,7 @@ h4 {
     margin-top: 12px;
     margin-bottom: 0;
     letter-spacing: .1em;
+    color: #787878;
 }
 
 
@@ -323,6 +336,7 @@ h4 {
     font-style: italic ;
     margin-top: 0px;
     margin-bottom: 0px; 
+    color: #787878;
     
 }
 
@@ -333,6 +347,7 @@ h4 {
     padding: 15px 24px 0px 24px;
     font-size: .5rem;
     padding-top: 70px;
+    color: #787878;
 }
 
 .latest-img {
