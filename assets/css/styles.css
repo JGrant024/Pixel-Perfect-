@@ -62,9 +62,7 @@ a {
 }
 
 a:hover {
-    color: #AF5F48; 
-    cursor: pointer;
-
+    color: #AF5F48;
 }
 
 .social-icons {
@@ -127,9 +125,9 @@ article {
     padding-left: 36px; 
     margin-top: 12px; 
     font-family: 'Playfair';    
-    font-size: small;
+    font-size: small; 
     color: #787878;
-
+    cursor: pointer;
 }
 
 .text {
@@ -190,6 +188,7 @@ h6 {
     font-weight: 600;
     letter-spacing: 0.5px; 
     padding-top: 39px; 
+    cursor: pointer;
 }
 
 h4 {
@@ -201,6 +200,7 @@ h4 {
     color: #6D6D6D; 
     margin-bottom: 22px;
     text-align: center;
+    cursor: pointer;
 }
 
 .lorem {
