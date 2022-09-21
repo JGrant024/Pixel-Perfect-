@@ -197,11 +197,11 @@ h6 {
 }
 
 h4 {
-    margin-top: 10px; 
+    margin-top: 27px; 
     font-family: 'latto', solid;
     font-size: 21px;
     font-weight: 800; 
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
     color: #6D6D6D; 
     margin-bottom: 22px;
     text-align: center;
@@ -211,7 +211,7 @@ h4 {
 .lorem {
     margin-top: 0px; 
     font-family: 'Lato', normal;
-    font-weight: 400;
+    font-weight: 400 bold;
     font-size: 13.5px;
     margin-bottom: 35px;
     color: #787878;
@@ -425,7 +425,7 @@ time{
 }
 
 
-.time {
+time {
     display: block; 
     text-align: left;
     font-size: 13px;
