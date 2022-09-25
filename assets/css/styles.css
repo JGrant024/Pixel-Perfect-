@@ -36,6 +36,7 @@ footer {
     padding: 10px 135px; 
     height: 57px; 
     width: 100%; 
+    font-weight: 400 bold;
 }
 
 .nav-menu {
@@ -75,6 +76,7 @@ a:hover {
     color: #787878;
     font-size: .9rem;
     font-style: italic;
+    padding-left: 20px;
 }
 
 /* MAIN CONTAINER */
@@ -128,10 +130,12 @@ article {
     padding-left: 36px; 
     margin-top: 12px; 
     font-family: 'Playfair';    
-    font-size: small; 
+    font-size: 13px; 
     color: #787878;
     cursor: pointer;
     font-style: italic;
+    font-weight: 400;
+   
 }
 
 .text {
@@ -283,6 +287,9 @@ h4 {
     border: 1px gray solid;
     border-radius: 50%; 
     padding: 5px;
+    height: 25px;
+    width: 25px;
+    font-size: 12px;
 }
 
 .user-icons {
@@ -292,6 +299,8 @@ h4 {
     justify-content: space-between;
     padding: 0 70px;
 }
+
+/* Popular Post Section */
 
 .popular-posts {
     background-color: #FFFFFF;
@@ -347,7 +356,7 @@ time{
     
 }
 
-
+/* Latest Post Section */
 
 .latest-posts {
     background-color: #FFFFFF;
@@ -384,6 +393,7 @@ time{
     margin: 0 auto;
   }
 
+/* Instagram Section */
 
 .instagram-feed > h4{
     letter-spacing: 0.5px;
@@ -418,6 +428,8 @@ time{
 .instagram-footer > div {
    flex: 1 1 0;
 }
+
+/* End of Instagram Section */
 
 .footer {
     border: 1px #ffff solid;
