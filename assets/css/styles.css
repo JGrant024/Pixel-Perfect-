@@ -63,7 +63,7 @@ a {
     color: #605F60;
 }
 
-a:hover {
+a:hover, h4:hover{
     color: #AF5F48;
 }
 
@@ -201,7 +201,7 @@ h6 {
     cursor: pointer;
 }
 
-h4 {
+h4  {
     margin-top: 27px; 
     font-family: 'latto', solid;
     font-size: 21px;
