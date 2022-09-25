@@ -64,7 +64,7 @@ a {
     color: #605F60;
 }
 
-a:hover, h4:hover, .info-text:hover {
+a:hover, h4:hover, .info-text:hover{
     color: #AF5F48;
 }
 
@@ -222,6 +222,18 @@ h4  {
     margin-bottom: 35px;
     color: #787878;
     font-style: italic ;
+}
+.page-button{
+    background-color: #ffff;;
+    height: 100%;
+    width: 34px;
+    font-style: #DC6A55;
+    color: #343434;
+    font-family: "Oswald";
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    margin-bottom: 80px;
 }
 
 .section1 {
@@ -438,6 +450,19 @@ time{
     height: 50px;
 }
 
+.overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
 
 time {
     display: block; 
