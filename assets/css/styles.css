@@ -51,6 +51,7 @@ footer {
     position: fixed;
     top: 0; 
     right: 135px; 
+    word-spacing: 20px;
 }
 
 
@@ -63,7 +64,7 @@ a {
     color: #605F60;
 }
 
-a:hover, h4:hover{
+a:hover, h4:hover, .info-text:hover {
     color: #AF5F48;
 }
 
