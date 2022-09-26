@@ -47,6 +47,7 @@ footer {
     font-family: 'Lato', normal;  
 }
 
+
 .nav-icons{
     position: fixed;
     top: 0; 
@@ -203,11 +204,11 @@ h6 {
 }
 
 h4  {
-    margin-top: 27px; 
+    margin-top: 10px; 
     font-family: 'latto', solid;
     font-size: 21px;
     font-weight: 800; 
-    letter-spacing: 0.3px;
+    font-style: bold;
     color: #6D6D6D; 
     margin-bottom: 22px;
     text-align: center;
@@ -234,6 +235,7 @@ h4  {
     font-weight: 400;
     border: none;
     margin-bottom: 80px;
+    font-style: bold;
 }
 
 .section1 {
@@ -286,6 +288,10 @@ h4  {
 
 .user-description {
     padding: 0 30px; 
+    font-family: 'Lato', normal;
+    font-weight: 400 bold;
+    font-size: 13.5px;
+    font-style: italic;
 }
 
 .profile > p {
@@ -376,7 +382,7 @@ time{
     background-color: #FFFFFF;
     padding: 15px 24px 0px 24px;
     font-size: .5rem;
-    padding-top: 70px;
+    padding-top: 10px;
     color: #787878;
 }
 
@@ -445,10 +451,22 @@ time{
 
 /* End of Instagram Section */
 
-.footer {
+.footer-follow {
     border: 1px #ffff solid;
-    height: 50px;
+    height: 75px;
+    background-color: #FFFF;
+    padding-top: 25px;
 }
+
+.bottom-section{
+    background-color: #191919;
+    padding-top: 35px;
+    font-weight: 400;
+    color: #565656;
+    letter-spacing: 0.20px;
+    font-size: 15px;
+    padding-bottom: 25px;
+    }
 
 .overlay {
     position: fixed; /* Sit on top of the page content */
@@ -477,4 +495,3 @@ time {
     margin-right: 0px; 
     margin-left: 0px;
 }
-
