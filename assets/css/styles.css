@@ -243,6 +243,20 @@ h4  {
     font-style: bold;
 }
 
+.page-button-1{
+    background-color: #DC6A55;
+    height: 100%;
+    width: 34px;
+    font-style: #DC6A55;
+    color: #ffff;
+    font-family: "Oswald";
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    margin-bottom: 80px;
+    font-style: bold;
+}
+
 .section1 {
     height: 100%;
     max-width: 677px; 
@@ -394,7 +408,6 @@ time{
 .latest-img {
     width: 96px; 
     height: 70px;
-
     margin-right: 20px;
 
 }
