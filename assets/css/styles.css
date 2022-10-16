@@ -437,7 +437,7 @@ time{
     color: #fff;
 }
 
-.img-wrapper  img,
+.img-wrapper 
 .img-wrapper  .content {
      transition: 0.5s ease-in-out;
 }
