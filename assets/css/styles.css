@@ -457,9 +457,10 @@ time{
     opacity: 1;
     overflow: hidden;
 }
-
+/* End of latest Post section with img-wrapper */
 .latest-date {
-    text-align: left;
+    text-align: center;
+    display: ;
 
 }
 
@@ -552,6 +553,3 @@ time {
     margin-left: 0px;
 }
 
-.ig-footer-imgs {
-
-}
