@@ -97,9 +97,9 @@ a:hover, h4:hover, .info-text:hover{
 /* MAIN CONTAINER */
 
 .container {
-    padding: 45px 0px 0px 135px;     
+    padding-top: 45px;
     height: 100%;
-    width: 100%; 
+    justify-content: center;
     display: flex;
 }
 
@@ -458,10 +458,6 @@ time{
     overflow: hidden;
 }
 /* End of latest Post section with img-wrapper */
-.latest-date {
-    text-align: center;
-
-}
 
 .latest-posts > section > div {
     display: flex; 
